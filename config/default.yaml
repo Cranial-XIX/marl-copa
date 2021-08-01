@@ -1,0 +1,29 @@
+device: "cuda"
+buffer_size: 100000
+n_rollout_threads: 8
+seed: 0
+centralized_every: 4
+
+method: "aqmix"
+imaginary_lambda: 0.5
+
+# multi-head attention strategy
+n_heads: 4
+agent_hidden_dim: 128
+coach_hidden_dim: 128
+
+# mixer
+mixer_embed_dim: 128
+mixer_hidden_dim: 128
+
+# RL
+gamma: 0.99
+lr: 0.0003
+optim_alpha: 0.99
+optim_eps: 0.00001
+total_steps: 5000000
+max_steps: 145
+batch_size: 256
+grad_norm_clip: 10
+update_target_every: 200
+update_every: 100
