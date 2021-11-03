@@ -2,18 +2,22 @@
 This is the implementation for [Coach-Player Multi-Agent Reinforcement Learning
 for Dynamic Team Composition](https://arxiv.org/pdf/2105.08692.pdf) **(ICML 2021)**
 
-## 1. Install the multiagent-particle-envs
+ <img src="https://github.com/Cranial-XIX/marl-copa/blob/master/misc/copa.png" width="650" height="300">
+
+## Dependency
+Install the multiagent-particle-envs:
 ```
 pip install -e multiagent-particle-envs/
 ```
 
-## 2. Run the experiments
+## Experiment 
+Please see run.sh for examples of running the code
 ```
 ./run.sh
 ```
 
-## 4. Citations
-Please consider citing [this paper](https://arxiv.org/pdf/2105.08692.pdf):
+## Citation
+If you find this work interesting or the repo useful, please consider citing [this paper](https://arxiv.org/pdf/2105.08692.pdf):
 ```
 @InProceedings{pmlr-v139-liu21m,
   title = 	 {Coach-Player Multi-agent Reinforcement Learning for Dynamic Team Composition},
