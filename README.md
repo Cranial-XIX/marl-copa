@@ -1,6 +1,6 @@
 # COach-PlAyer (COPA) MARL
 This is the implementation for [Coach-Player Multi-Agent Reinforcement Learning
-for Dynamic Team Composition](https://arxiv.org/pdf/2105.08692.pdf) (ICML 2021)
+for Dynamic Team Composition](https://arxiv.org/pdf/2105.08692.pdf) **(ICML 2021)**
 
 ## 1. Install the multiagent-particle-envs
 ```
