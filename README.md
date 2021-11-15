@@ -2,7 +2,7 @@
 This is the implementation for [Coach-Player Multi-Agent Reinforcement Learning
 for Dynamic Team Composition](https://arxiv.org/pdf/2105.08692.pdf) **(ICML 2021)**
 
- <img src="https://github.com/Cranial-XIX/marl-copa/blob/master/misc/copa.png" width="650" height="300">
+ <img src="https://github.com/Cranial-XIX/marl-copa/blob/master/misc/copa.png" width="500" height="225">
 
 ## Dependency
 Install the multiagent-particle-envs:
